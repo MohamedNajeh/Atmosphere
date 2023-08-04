@@ -13,8 +13,9 @@ class MovieCell: UITableViewCell {
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
-        
         print("registerBranch")
+        print("loginBranch")
+        print("login again")
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {
@@ -27,4 +28,9 @@ class MovieCell: UITableViewCell {
         
     }
     
+}
+extension MovieCell {
+    func fromLoginBranch(){
+        
+    }
 }

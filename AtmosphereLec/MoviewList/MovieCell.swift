@@ -23,3 +23,8 @@ class MovieCell: UITableViewCell {
     }
     
 }
+extension MovieCell {
+    func fromLoginBranch(){
+        
+    }
+}

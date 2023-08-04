@@ -13,6 +13,12 @@ class MovieCell: UITableViewCell {
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
+        print("Ahlam")
+        print("Ahlam")
+        print("Ahlam")
+        print("Ahlam")
+        print("Ahlam")
+        print("Ahlam")
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {
